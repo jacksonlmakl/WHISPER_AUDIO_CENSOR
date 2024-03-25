@@ -63,17 +63,9 @@ To directly use the audio censoring script without the Flask app:
 
 ## Configuration
 
-- To change the sensitivity of silence detection or chunk sizes, edit the `split_audio` function parameters in `censor_audio.py`.
+- To change the sensitivity of silence detection or chunk sizes, edit the `split_audio` function parameters in `main_bulk.py`.
 - Adjust the sine wave frequency for the censor beep in the `censor_chunk` function.
 
 ## Contributing
 
 We welcome contributions! If you have suggestions or improvements, feel free to fork the repository and submit a pull request.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Contact
-
-If you have any questions or feedback, please contact me at your-email@example.com.
