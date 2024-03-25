@@ -5,7 +5,7 @@ from pydub.generators import Sine
 
 def get_word_data(file_path):
   client = OpenAI(
-    api_key='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'
+    api_key=os.environ["OPENAI_API_KEY"]
   )
   audio_file= open(file_path, "rb")
   transcription = client.audio.transcriptions.create(
